@@ -9,7 +9,7 @@ const App = () => {
     { title: 'Tab 3', content: 'This is the content for Tab 3.' },
   ];
 
-  const [currentContent, setCurrentContent] = useState('');
+  const [currentContent, setCurrentContent] = useState(tabs[0].content);
 
   return (
     <div>
